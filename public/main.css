@@ -1,0 +1,55 @@
+body {
+  background-color:#dbe1e1;
+  min-height: 100%;
+}
+
+.jumbotron {
+  background-color:	#343a40;
+  color: whitesmoke; 
+}
+
+.img-fluid {
+  border-radius: 40%
+}
+
+h2 {
+  font-family: 'Patrick Hand', sans-serif;
+  font-size: 3rem;
+}
+
+.leadText, p {
+  font-size: 1.5rem;
+  font-family: 'Roboto', cursive;
+
+}
+
+.title, p {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 4rem;
+}
+
+.lead, p {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 23.33%;
+  padding: 5px;
+  margin: 1rem;
+}
+
+.day {
+  border-radius: 50%;
+  width: 230px;
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "specials": [
+      {"id": 1,
+      "weekday": "Monday",
+      "name": ["Chow","Sweet Mother's Kitchen","Higher Taste"],
+      "special": ["2 for 1deal","12.50 Fish po boy","$10 Paneer fired rice"],
+      "image": ["/images/chow.jpeg","/images/fish-po-boy.jpg","/images/paneer-fried-rice.jpg"],
+      "URL": ["http://www.chow.co.nz/"," http://www.sweetmotherskitchen.co.nz/",""],
+      "contact": ["04-382 8585"," 04-385 444","04-472 2233"],
+      "location": ["45 Tory St, ","5 Courtenay","Old Bank Arcade"]
+
+      },
+
+      {"id": 2,
+          "weekday": "Tuseday",
+          "name": ["Scopa","Rock Yard","Monterey"],
+          "special": ["$8 Margherita Pizza","$9.25 Spicy Lemongrass chicken","$10 Cajun-spiced free range chicken burger"],
+          "image": ["/images/margherita-pizza.jpeg","/images/lemongress-chicken.jpeg","/images/cajun-burger.jpg"],
+          "URL": ["https://www.scopa.co.nz/","",""],
+          "contact": ["04-384 6020","04-381 3930","04-389 3008"],
+          "location": ["141 Cuba st","18Allen st","4 Rintoul st"]
+  
+      },
+
+      {"id": 3,
+              "weekday": "Wednesday",
+              "name": ["Southern Cross","Little Hanoi","Pizza Pomodoro"],
+              "special": ["$15 Roast lunch","$12.50 Chicken and bamboo noodle soup","$10 Large margherita pizza"],
+              "image": ["/images/roast-lunch.jpeg","/images/chicken-noddle-soup .jpeg","/images/margherita pizza2.jpg"],
+              "URL": ["https://www.thecross.co.nz/","http://www.littlehanoi.co.nz","https://www.pizzapomodoro.co.nz/"],
+              "contact": ["04-384 9085","04-928 8888","04-381 2929"],
+              "location": ["39 Abel Smith st","210A Left Bank","13 Leeds St, "]
+      
+          },
+
+          {"id": 4,
+                  "weekday": "Thursday",
+                  "name": ["Chef's Palette","Nam D","Thunderbird"],
+                  "special": ["$5 Vegetarian noodles","$7.50 Banh Mi Thit","$10.50 Ron's Winner burger"],
+                  "image": ["/images/vege-noddles.jpeg","/images/banh-mi-thit.jpg","/images/winner-burger.jpg"],
+                  "URL": ["null","https://www.nam-d.co.nz/","http://www.thunderbirdcafe.co.nz/"],
+                  "contact": ["04-472 2977","null","04-499 1966"],
+                  "location": ["Woodward St","78 Willis st","154 Featherston st"]
+          
+          },
+
+           {"id": 5,
+                      "weekday": "Friday",
+                      "name": ["Sushi B","Goose Shack","Chumeez"],
+                      "special": ["$3.30 Six pieces of sushi9","$9 Hot pork belly sandwich","$11.50 Singapore Hokkien Noodles"],
+                      "image": ["/images/sushi.jpeg","/images/pork-belly-sandwich.jpeg","/images/hokkien-noodles.jpg"],
+                      "URL": ["https://www.sushibi.co.nz/sushi-bi/","null",""],
+                      "contact": ["04-499 8578","04-389 7171","04-473 2386"],
+                      "location": ["72 Woodward St","461 Adelaide Rd","134-138 Lambton Quay"]
+              
+              }
+
+  ]
+}
