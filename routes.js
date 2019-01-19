@@ -1,52 +1,45 @@
 const express = require("express");
 const router = express.Router();
-const bodyParser = require("body-parser");
 const fs = require("fs");
-const data = require("./data.json");
+const dataPath = "./data.json";
+//const data = require("./data.json");
+//const dataLoader = require("./js/helpers/dataLoader");
+//const bodyParser = require("body-parser");
 
 //const server = express ()
 //router.use(bodyParser.urlencoded({extended: true}))
 
-var dataFile = [
-  {
-    id: 1,
-    title: "urban wanderer",
-    blurb:
-      "Take time out from city living and make the most of your day by exploring some of the best trails Wellington has to offer"
-  }
-];
-
 router.get("/", (req, res) => {
-  res.render(__dirname + "/views/index", dataFile[0]);
+  res.render(__dirname + "/views/home");
 });
 
 router.get("/walks", (req, res) => {
-  fs.readFile(data, "utf8", function(err, data) {
+  fs.readFile(dataPath, "utf8", function(err, data) {
     if (err) {
       return res.status(500).send("An error has occurred");
     }
-    let walk = {
-      walkways: JSON.parse(data)
-    };
-    console.log(walk);
-    res.render("views/walk", walk);
+    let walks = JSON.parse(data);
+    res.render(__dirname + "/views/index", { walks: walks, layout: "walks" });
   });
 });
 
 router.get("/walks/:id", (req, res) => {
-  //your loop
-
   //loop thru array
   // let person = ""
   // for(i = 0; i < dataFile.length; i++){
   //   if(dataFile[i] === 2){
   //     person = dataFile[i]
-
   //built in javascript function
-  var walk = dataFile.find(function(item) {
-    return item.id == req.params.id;
+
+  // TODO: DRY this up
+  fs.readFile(dataPath, "utf8", function(err, data) {
+    if (err) {
+      return res.status(500).send("An error has occurred");
+    }
+    let walks = JSON.parse(data);
+    let walk = walks.find(item => item.id === req.params.id);
+    res.render(__dirname + "/views/show", { walk: walk, layout: "walks" });
   });
-  res.render(__dirname + "/views/walk", { layout: "walks" });
 });
 
 module.exports = router;
