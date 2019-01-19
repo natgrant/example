@@ -1,12 +1,26 @@
-{
-  "walkways": [
-    {
-      "id": 1,
-      "name": "Makara Walkway",
-      "description": "This loop walk climbs to vantage points with spectacular views - farmland, a beach and gun emplacements will keep kids interested. Makara Walkway begins and ends at Makara Beach, 16 km north of Wellington. The beach is at the end of Makara Road which runs from the south end of Karori Road.",
-      "overview": "6km loop",
-      "restrictions": "Part of track closed for lambing season between 1 August and 1 October. Access to the gun emplacements is via Makara Beach during this time.",
-      "dogFriendly": false
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "name": "Makara Walkway",
+    "description": "This loop walk climbs to vantage points with spectacular views - farmland, a beach and gun emplacements will keep kids interested. Makara Walkway begins and ends at Makara Beach, 16 km north of Wellington. The beach is at the end of Makara Road which runs from the south end of Karori Road.",
+    "overview": "6km loop",
+    "restrictions": "Part of track closed for lambing season between 1 August and 1 October. Access to the gun emplacements is via Makara Beach during this time.",
+    "dogFriendly": false
+  },
+  {
+    "id": 2,
+    "name": "Cuba Street",
+    "description": "A cool spot to hang",
+    "overview": "1.2km",
+    "restrictions": "beware of denim-wearing hipster chicks who read Hermann Hesse",
+    "dogFriendly": true
+  },
+  {
+    "id": 3,
+    "name": "Somewhere else",
+    "description": "A cool spot to hang also",
+    "overview": "97.2km",
+    "restrictions": "Beans in the sun with doggos",
+    "dogFriendly": true
+  }
+]
