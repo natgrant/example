@@ -2,8 +2,7 @@ const express = require("express");
 const router = express.Router();
 const fs = require("fs");
 const dataPath = "./data.json";
-//const data = require("./data.json");
-//const dataLoader = require("./js/helpers/dataLoader");
+
 //const bodyParser = require("body-parser");
 
 //const server = express ()
@@ -14,7 +13,7 @@ router.get("/", (req, res) => {
 });
 
 router.get("/walks", (req, res) => {
-  fs.readFile(dataPath, "utf8", function(err, data) {
+  fs.readFile(dataPath, "utf8", (err, data) => {
     if (err) {
       return res.status(500).send("An error has occurred");
     }
@@ -44,12 +43,3 @@ router.get("/contact", (req, res) => {
 });
 
 module.exports = router;
-
-//loop thru array
-// let person = ""
-// for(i = 0; i < dataFile.length; i++){
-//   if(dataFile[i] === 2){
-//     person = dataFile[i]
-//built in javascript function
-
-// TODO: DRY this up

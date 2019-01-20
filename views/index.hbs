@@ -1,24 +1,17 @@
-<body>
-  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-    <h1>Wellington Walks</h1>
-    <table class='table table-striped'>
-      <thead class="text-center">
-        <tr>
-          <th>Walks</th>
-          <th>About</th>
-          <th>Length</th>
-        </tr>
-      </thead>
-      <tbody>
-        {{#each walks}}
-        <tr>
-          <td><a href="/walks/{{this.id}}"> {{this.name}}</a></td>
-          <td>{{this.description}}</td>
-          <td>{{this.overview}}</td>
-          {{!-- <td><img class="rounded" src="{{image}}" alt="{{name}}"></td> --}}
-        </tr>
-        {{/each}}
-      </tbody>
-    </table>
+<h1 class="mx-2">Wellington walks</h1>
+<div class="container-fluid mt-2">
+  <div class="row align-items-center">
+    <div class="col-md-4">
+      {{#each walks}}
+      <div class="card mb-2" style="width: 18rem;">
+        <img src="{{image}}" class="card-img-top" alt="trail image">
+        <div class="card-body">
+          <h5 class="card-title">{{this.name}}</h5>
+          <p class="card-text">{{this.description}}</p>
+          <a href="{{path}}" class="btn btn-primary">More info</a>
+        </div>
+      </div>
+      {{/each}}
+    </div>
   </div>
-</body>
+</div>
