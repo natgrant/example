@@ -24,14 +24,6 @@ router.get("/walks", (req, res) => {
 });
 
 router.get("/walks/:id", (req, res) => {
-  //loop thru array
-  // let person = ""
-  // for(i = 0; i < dataFile.length; i++){
-  //   if(dataFile[i] === 2){
-  //     person = dataFile[i]
-  //built in javascript function
-
-  // TODO: DRY this up
   fs.readFile(dataPath, "utf8", function(err, data) {
     if (err) {
       return res.status(500).send("An error has occurred");
@@ -42,4 +34,22 @@ router.get("/walks/:id", (req, res) => {
   });
 });
 
+router.get("/contact", (req, res) => {
+  fs.readFile(dataPath, "utf8", function(err, data) {
+    if (err) {
+      return res.status(500).send("An error has occurred");
+    }
+    res.render(__dirname + "/views/contact", { layout: "walks" });
+  });
+});
+
 module.exports = router;
+
+//loop thru array
+// let person = ""
+// for(i = 0; i < dataFile.length; i++){
+//   if(dataFile[i] === 2){
+//     person = dataFile[i]
+//built in javascript function
+
+// TODO: DRY this up

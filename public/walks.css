@@ -20,3 +20,32 @@ th {
 a {
   color: #006080;
 }
+
+#footer {
+  background: #343a40 !important;
+  position: relative;
+  height: 150px;
+  padding-top: 20px;
+}
+
+#footer a {
+  color: #ffffff;
+  background-color: transparent;
+  font-size: 2rem;
+}
+
+#footer ul.social li:hover a i {
+  font-size: 3rem;
+  margin-top: -10px;
+  color: #e8b121;
+}
+
+.contact {
+  background: url("/images/contactspage.jpg");
+  background-size: cover;
+  color: #ebf8f4;
+}
+
+.link {
+  color: #b2e4df;
+}
