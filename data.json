@@ -6,22 +6,27 @@
     "overview": "6km loop",
     "restrictions": "Part of track closed for lambing season between 1 August and 1 October. Access to the gun emplacements is via Makara Beach during this time.",
     "dogFriendly": "No",
-    "image": "/images/makara.jpg"
+    "image": "/images/makara.jpg",
+    "path": "/walks/1"
   },
   {
     "id": 2,
-    "name": "Cuba Street",
-    "description": "A cool spot to hang",
-    "overview": "1.2km",
-    "restrictions": "beware of denim-wearing hipster chicks who read Hermann Hesse",
-    "dogFriendly": "Yes"
+    "name": "Rangituhi/Colonial Knob Scenic Reserve",
+    "description": "Another stunner taking you through lush forests, and then farmland with amazing views, the landscape is steep so make sure you're prepared for this one.",
+    "overview": "7.4km, Moderate - 3 to 4 hour return",
+    "restrictions": "N/A",
+    "dogFriendly": "No",
+    "image": "/images/colonial-knob-view.jpg",
+    "path": "/walks/2"
   },
   {
     "id": 3,
-    "name": "Somewhere else",
-    "description": "A cool spot to hang also",
-    "overview": "97.2km",
-    "restrictions": "Beans in the sun with doggos",
-    "dogFriendly": "Yes"
+    "name": "Stairway to Heaven",
+    "description": "Be careful not to lose your balance on this one! Definitely challenging, but worth the views.",
+    "overview": "10km, Moderate - 3 to 5 hours one way",
+    "restrictions": "Closed during extreme weather",
+    "dogFriendly": "No",
+    "image": "/images/stairway-to-h.jpg",
+    "path": "/walks/3"
   }
 ]
