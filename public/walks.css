@@ -2,8 +2,21 @@ body,
 html {
   margin: 0;
   padding: 0;
+  font-family: "Open Sans";
+  background-color: #83aa99;
 }
 
-navbar-brand {
-  font-family: "Open Sans";
+h1 {
+  padding-top: 2rem;
+  font-family: "Cabin Sketch";
+  font-size: 3rem;
+  color: #ebf8f4;
+}
+
+th {
+  color: #ebf8f4;
+}
+
+a {
+  color: #006080;
 }

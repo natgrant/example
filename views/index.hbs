@@ -1,18 +1,21 @@
-<body class="text-center">
+<body>
   <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-    <h1>The walk</h1>
+    <h1>Wellington Walks</h1>
     <table class='table table-striped'>
-      <thead>
+      <thead class="text-center">
         <tr>
-          <th>name</th>
-          <th>description</th>
+          <th>Walk</th>
+          <th>About</th>
+          <th>Length</th>
         </tr>
       </thead>
       <tbody>
         {{#each walks}}
         <tr>
-          <td>{{this.name}}</td>
+          <td><a href="/walks/{{this.id}}"> {{this.name}}</a></td>
           <td>{{this.description}}</td>
+          <td>{{this.overview}}</td>
+          {{!-- <td><img class="rounded" src="{{image}}" alt="{{name}}"></td> --}}
         </tr>
         {{/each}}
       </tbody>
