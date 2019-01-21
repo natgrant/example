@@ -13,6 +13,11 @@ h1 {
   color: #ebf8f4;
 }
 
+.banner {
+  background-color: #343a40;
+  padding-bottom: 2rem;
+}
+
 th {
   color: #ebf8f4;
 }

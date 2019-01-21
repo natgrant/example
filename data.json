@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Makara Walkway",
-    "description": "If you love climbing cliff-tops, stunning ocean views, and lush farmland this walk is for you, great on a sunny day and sheltered from those southerly winds.",
+    "description": "If you love climbing up cliff-tops, stunning ocean views, and lush farmland this walk is for you, great on a sunny day and sheltered from those southerly winds.",
     "overview": "6km loop",
     "restrictions": "Part of track closed for lambing season between 1 August and 1 October. Access to the gun emplacements is via Makara Beach during this time.",
     "dogFriendly": "No",
@@ -28,5 +28,35 @@
     "dogFriendly": "No",
     "image": "/images/stairway-to-h.jpg",
     "path": "/walks/3"
+  },
+  {
+    "id": 3,
+    "name": "Mount Kaukau Summit",
+    "description": "Take your furry (or human) friend on an adventure up Mount Kaukau for some amazing views",
+    "overview": "4.2km, taking around 3 hours",
+    "restrictions": "Don't break in to the zoo, you may be eaten",
+    "dogFriendly": "Yes",
+    "image": "/images/mount-kaukau.jpg",
+    "path": "/walks/4"
+  },
+  {
+    "id": 3,
+    "name": "Mount Albert Loop",
+    "description": "If you're looking for an easy Sunday walk this is the one for you, views of the Cook Strait are visible from the top",
+    "overview": "2km, taking around 90 minutes",
+    "restrictions": "",
+    "dogFriendly": "Yes",
+    "image": "/images/mount-albert.jpg",
+    "path": "/walks/5"
+  },
+  {
+    "id": 3,
+    "name": "Red Rocks Reserve",
+    "description": "Explore the rugged south coast, and check out the red-coloured rocks form over 200 years ago which is where the name was derived",
+    "overview": "9km, 2 - 3 hours return",
+    "restrictions": "Watch out for hungry seals May - October",
+    "dogFriendly": "Yes",
+    "image": "/images/red-rocks.jpg",
+    "path": "/walks/6"
   }
 ]
