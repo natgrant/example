@@ -30,9 +30,9 @@
     "path": "/walks/3"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Mount Kaukau Summit",
-    "description": "Take your furry (or human) friend on an adventure up Mount Kaukau for some amazing views",
+    "description": "Take your furry (or human) friend on an adventure up Mount Kaukau for some amazing views.",
     "overview": "4.2km, taking around 3 hours",
     "restrictions": "Don't break in to the zoo, you may be eaten",
     "dogFriendly": "Yes",
@@ -40,19 +40,19 @@
     "path": "/walks/4"
   },
   {
-    "id": 3,
+    "id": 5,
     "name": "Mount Albert Loop",
-    "description": "If you're looking for an easy Sunday walk this is the one for you, views of the Cook Strait are visible from the top",
+    "description": "If you're looking for an easy Sunday walk this is the one for you, views of the Cook Strait are visible from the top.",
     "overview": "2km, taking around 90 minutes",
     "restrictions": "",
     "dogFriendly": "Yes",
     "image": "/images/mount-albert.jpg",
-    "path": "/walks/5"
+    "path": "/walk s/5"
   },
   {
-    "id": 3,
+    "id": 6,
     "name": "Red Rocks Reserve",
-    "description": "Explore the rugged south coast, and check out the red-coloured rocks form over 200 years ago which is where the name was derived",
+    "description": "Explore the rugged south coast, and check out the unique red-coloured rocks which formed over 200 years ago.",
     "overview": "9km, 2 - 3 hours return",
     "restrictions": "Watch out for hungry seals May - October",
     "dogFriendly": "Yes",
