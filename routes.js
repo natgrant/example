@@ -3,11 +3,6 @@ const router = express.Router();
 const fs = require("fs");
 const dataPath = "./data.json";
 
-//const bodyParser = require("body-parser");
-
-//const server = express ()
-//router.use(bodyParser.urlencoded({extended: true}))
-
 router.get("/", (req, res) => {
   res.render(__dirname + "/views/home");
 });
@@ -29,6 +24,7 @@ router.get("/walks/:id", (req, res) => {
     }
     let walks = JSON.parse(data);
     let walk = walks.find(item => item.id === req.params.id);
+
     res.render(__dirname + "/views/show", { walk: walk, layout: "walks" });
   });
 });
