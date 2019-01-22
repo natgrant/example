@@ -12,18 +12,41 @@
       <h1>
         {{walk.name}}
       </h1>
-
-      <div class="blog-post">
-        <h2 class="blog-post-title"></h2>
-
-        <hr>
-
-
-
+      <hr>
+      <div class="content">
+        <p>{{walk.description}}</p>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Restrictions</th>
+              <th>Length</th>
+              <th>Dogs?</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>{{walk.restrictions}}</td>
+              <td>{{walk.overview}}</td>
+              <td>{{walk.dogFriendly}}</td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Getting there:</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>{{walk.location}}</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
 
-    <aside class="col-md-4">
+    <aside class="col-md-4 mt-4">
       <div class="p-3 mb-3">
         <img class="img-thumbnail" src="{{walk.image}}" alt="walk">
       </div>

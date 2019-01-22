@@ -7,7 +7,8 @@
     "restrictions": "Part of track closed for lambing season between 1 August and 1 October. Access to the gun emplacements is via Makara Beach during this time.",
     "dogFriendly": "No",
     "image": "/images/makara.jpg",
-    "path": "/walks/1"
+    "path": "/walks/1",
+    "location": "Makara Walkway begins and ends at Makara Beach, 16 km north of Wellington. The beach is at the end of Makara Road which runs from the south end of Karori Road."
   },
   {
     "id": 2,
@@ -17,17 +18,19 @@
     "restrictions": "N/A",
     "dogFriendly": "No",
     "image": "/images/colonial-knob-view.jpg",
-    "path": "/walks/2"
+    "path": "/walks/2",
+    "location": "The reserve is located on the hills west of Tawa and Linden. Access is via Broken Hill Road, off Raiha Street, which connects Kenepuru Drive and Prosser Street in Elsdon, Porirua. Rangituhi/Colonial Knob Walking Track passes through the reserve, connecting the Broken Hill entrance with the Raiha Street entrance to Porirua Scenic Reserve."
   },
   {
     "id": 3,
     "name": "Stairway to Heaven",
     "description": "Be careful not to lose your balance on this one! Definitely challenging, but worth the views.",
     "overview": "10km, Moderate - 3 to 5 hours one way",
-    "restrictions": "Closed during extreme weather",
+    "restrictions": "Closed during extreme weather. Please keep to the marked track and DO NOT enter the rail corridor (you risk a $20,000 fine). There are seats and interesting interpretive signs along the way but no amenities.",
     "dogFriendly": "No",
     "image": "/images/stairway-to-h.jpg",
-    "path": "/walks/3"
+    "path": "/walks/3",
+    "location": "Northern Start: Beach Rd, Paekakariki - Southern End: Pukerua Bay shops on SH1"
   },
   {
     "id": 4,
@@ -37,7 +40,8 @@
     "restrictions": "Don't break in to the zoo, you may be eaten",
     "dogFriendly": "Yes",
     "image": "/images/mount-kaukau.jpg",
-    "path": "/walks/4"
+    "path": "/walks/4",
+    "location": "Catch a number 43 or number 44 bus to Clutha Avenue in Khandallah, or the Johnsonville Line train to Simla Crescent."
   },
   {
     "id": 5,
@@ -47,7 +51,8 @@
     "restrictions": "",
     "dogFriendly": "Yes",
     "image": "/images/mount-albert.jpg",
-    "path": "/walk s/5"
+    "path": "/walks/5",
+    "location": "Catch a number 23 bus to Sutherland Road at the corner of Sutherland Crescent, then walk to the start."
   },
   {
     "id": 6,
@@ -57,6 +62,7 @@
     "restrictions": "Watch out for hungry seals May - October",
     "dogFriendly": "Yes",
     "image": "/images/red-rocks.jpg",
-    "path": "/walks/6"
+    "path": "/walks/6",
+    "location": "You can catch bus number 1 to Island Bay and get off at the last stop and walk around the coast via the Bach Cafe and Owhiro Bay Parade. This adds a 2 kilometre walk before the start of the walkway."
   }
 ]
