@@ -54,3 +54,12 @@ a {
 .link {
   color: #b2e4df;
 }
+
+hr {
+  border: 0;
+  box-shadow: 0 0 10px 2px whitesmoke;
+}
+hr:after {
+  /* Not really supposed to work, but does */
+  content: "\00a0"; /* Prevent margin collapse */
+}
