@@ -23,7 +23,7 @@ router.get("/walks/:id", (req, res) => {
       return res.status(500).send("An error has occurred");
     }
     let walks = JSON.parse(data);
-    let walk = walks.find(item => item.id === req.params.id);
+    let walk = walks.find(item => item.id == req.params.id);
 
     res.render(__dirname + "/views/show", { walk: walk, layout: "walks" });
   });
