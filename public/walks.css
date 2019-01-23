@@ -60,6 +60,9 @@ hr {
   box-shadow: 0 0 10px 2px whitesmoke;
 }
 hr:after {
-  /* Not really supposed to work, but does */
-  content: "\00a0"; /* Prevent margin collapse */
+  content: "\00a0";
+}
+
+.walks {
+  margin-left: 6rem;
 }

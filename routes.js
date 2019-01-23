@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 const fs = require("fs");
 const dataPath = "./data.json";
+const bodyparser = require("body-parser");
 
 router.get("/", (req, res) => {
   res.render(__dirname + "/views/home");
