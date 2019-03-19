@@ -2,4 +2,4 @@
 
 Heroku -> https://urbanwanderer.herokuapp.com/
 
-Personal project to develop knowledge in server side rendering using templating engine (Handlebars)
+Personal project to develop knowledge of templating engine (Handlebars)
